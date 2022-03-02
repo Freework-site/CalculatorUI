@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #bbcaf1;
+    overflow: hidden;
+}
+body::before
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    bottom: -15%;
+    right: -30%;
+    background: #6f80ae;
+    clip-path: circle();
+    z-index: -3;
+}
+.wrapper
+{
+    position: relative;
+    background: #1c1c1b;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    padding: 6px;
+}
+.wrapper .calc
+{
+    position: relative;
+    display: grid;
+}
+.wrapper .calc .display
+{
+    grid-column: span 4;
+    height: 180px;
+    width: 320px;
+    text-align: right;
+    outline: none;
+    appearance: none;
+    border: none;
+    background: #1c1c1b;
+    padding: 5px 8px;
+    font-size: 35px;
+    color: #6f80ae;
+    font-weight: 800;
+}
+.wrapper .calc span
+{
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    user-select: none;
+    border: 3px solid #1c1c1b;
+    border-radius: 12px;
+}
+.wrapper .calc .clear
+{
+    grid-column: span 2;
+    width: 160px;
+}
+.wrapper .calc .add
+{
+    grid-row: span 2;
+    height: 160px;
+}
+.wrapper .calc .zero
+{
+    grid-column: span 2;
+    width: 160px;
+}
+span:nth-child(2)
+{
+    background: #1c213e;
+}
+span:nth-child(3)
+{
+    background: #1c213e;
+}
+span:nth-child(4)
+{
+    background: #1c213e;
+}
+span:nth-child(5)
+{
+    background: #6f80ae;
+}
+span:nth-child(6)
+{
+    background: #6f80ae;
+}
+span:nth-child(7)
+{
+    background: #6f80ae;
+}
+span:nth-child(8)
+{
+    background: #1c213e;
+}
+span:nth-child(9)
+{
+    background: #6f80ae;
+}
+span:nth-child(10)
+{
+    background: #6f80ae;
+}
+span:nth-child(11)
+{
+    background: #6f80ae;
+}
+span:nth-child(12)
+{
+    background: #1c213e;
+}
+span:nth-child(13)
+{
+    background: #6f80ae;
+}
+span:nth-child(14)
+{
+    background: #6f80ae;
+}
+span:nth-child(15)
+{
+    background: #6f80ae;
+}
+span:nth-child(16)
+{
+    background: #1c213e;
+}
+span:nth-child(17)
+{
+    background: #6f80ae;
+}
+span:nth-child(18)
+{
+    background: #1c213e;
+}
